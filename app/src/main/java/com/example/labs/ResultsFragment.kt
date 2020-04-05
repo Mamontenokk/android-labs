@@ -30,10 +30,8 @@ class ResultsFragment : Fragment() {
 
 
     companion object {
-        fun newInstance(pizzaName: String, pizzaIngredients: String): ResultsFragment {
+        fun newInstance(composedText: String): ResultsFragment {
             val fragment = ResultsFragment()
-
-            val composedText = concatenate(pizzaName, pizzaIngredients)
 
             val args = Bundle()
             args.putString(TEXT_KEY, composedText)

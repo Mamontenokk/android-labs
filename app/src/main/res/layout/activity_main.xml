@@ -21,19 +21,34 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />
 
-    <Button
-        android:id="@+id/order_button"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="makeOrder"
-        android:text="@string/order_label" />
+        android:layout_marginLeft="60dp">
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="makeOrder"
+            android:text="@string/order_label" />
+
+        <Button
+            android:id="@+id/show_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showResults"
+            android:text="@string/show_result"
+            android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
 
     <fragment
         android:id="@+id/results_fragment"
         android:name="com.example.labs.ResultsFragment"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />
-
 
 </LinearLayout>

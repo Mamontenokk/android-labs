@@ -41,8 +41,6 @@ class CheckboxFragment : Fragment() {
             }
         }
         return ingredients
-
-
     }
 
 

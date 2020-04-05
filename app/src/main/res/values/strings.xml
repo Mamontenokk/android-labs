@@ -6,6 +6,8 @@
     <string name="cheese">Cheese</string>
     <string name="cucumber">Cucumber</string>
     <string name="chicken">Chicken</string>
+    <string name="show_result">Show results</string>
+    <string name="clear_file">Clear file</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
